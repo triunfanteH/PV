@@ -1,2 +1,3 @@
-db
-portalVendas
+create database portalVendas;
+
+create table usuario(id int auto_increment,nome varchar(255),usuario varchar(255),senha varchar(255),primary key(id));
