@@ -10,7 +10,7 @@ if($nome){
   $conexao = new Connection();
   //pego tudo de paciente que tiver o nome e senha com o que foi solicitado
   $sql ='select * from usuarios where nome=:nome and senha =:senha';
-  $salt='GFE%$#¨Y(Juge56GUh7y7tg6f85ddeMINHA ROLA';
+  $salt='GFE%$#¨Y(Juge56GUh7y7tg6f85ddeddq';
   $rs =$conexao->prepare($sql);
   $rs->bindParam(':nome',$nome);
   $rs->bindParam(':senha',$senha);
@@ -48,7 +48,7 @@ if($nome){
         <label for="inputPassword" class="sr-only">Senha</label>
         <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
         <div class="checkbox mb-3"></div>
-        
+
         <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
       </form>

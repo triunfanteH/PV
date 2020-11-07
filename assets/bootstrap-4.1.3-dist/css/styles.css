@@ -1,0 +1,8 @@
+
+.div-home-buttons{
+    display: inline-grid;
+}
+
+.div-home-buttons a{
+    margin: 5%;
+}
