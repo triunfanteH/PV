@@ -33,7 +33,7 @@ if($nome){
 <html>
 <head>
 	<title>PortalDeVendas</title>
-	 <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	 <link href="assets/bootstrap-4.1.3-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
 
 
