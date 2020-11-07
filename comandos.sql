@@ -2,4 +2,4 @@ CREATE TABLE portalvendas.usuario(id INT AUTO_INCREMENT,nome varchar(255),usuari
 
 SELECT * FROM portalvendas.usuario;
 
-describe portalvendas.usuario;
+describe portalvendas.usuario;w
